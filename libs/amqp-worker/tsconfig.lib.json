@@ -2,6 +2,7 @@
   "extends": "../../tsconfig.json",
   "compilerOptions": {
     "declaration": true,
+    "experimentalDecorators": true,
     "outDir": "../../dist/libs/amqp-worker"
   },
   "include": ["src/**/*"],
