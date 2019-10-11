@@ -1,0 +1,18 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "projects": {
+    "amqp-worker": {
+      "type": "library",
+      "root": "libs/amqp-worker",
+      "entryFile": "index",
+      "sourceRoot": "libs/amqp-worker/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/amqp-worker/tsconfig.lib.json"
+      }
+    }
+  },
+  "compilerOptions": {
+    "webpack": true
+  }
+}
